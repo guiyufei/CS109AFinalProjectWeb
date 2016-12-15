@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>New York or San Fan</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Data Science</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#intro">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#overview">Background</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#object">Objective</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#analysis">Analysis</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#method">Method</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#vis">Results</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#conclusion">Conclusion</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://github.com/x811zou/cs109a-baby-name" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header>
+    <section id="intro">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Baby Names</h1>
+                <h1>And Social Trend</h1>
+                <h2> Explore Social trend via baby names. <br> Data analysis, semi-supervised and unsupervised <br> learning solutions. </h2>
+            </div>
+            <br><br>
+            <a href="#overview" class="page-scroll btn btn-circle">
+                <i class="fa fa-angle-down fa-5x animated"></i>
+            </a>
+
+        </div>
+
+
+
+    </section>
+</header>
+
+<section id="overview">
+    <div class="content-section-a">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="wow bounceInDown" data-wow-delay="0.1s">
+                    <h2 class="section-heading">Project Overview</h2>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Background</h3>
+                <hr>
+                <p id="back">
+                    Names are unique cultural traits that carry important information on the transformation of the social structure, whose popularity reflects the rise and fall of the social trend at certain time period.  While certain names are popular in different areas in different times in history, the repetition could represent a pattern. Same names might be circulated over and over again in families! Traditionally, many cultures believe in honoring their elders and do so by naming children after them. It would be a great cultural element for us to study the social trend by focusing on the distribution of baby names. We expect to observe the duplication patterns of name distribution in the same region where population do not undergo big migration.</p>
+                <br>
+                <p id="back">Individually, naming a baby is a such deeply intimate decision, which integrates with parents’ tradition, religion, favorite books and movies, their dreams for their children, and their aesthetic sensibilities in choosing names. To put it into a big picture, it is more than a personal preference, but a social artifact. For example, it has been reported that common names that were most widespread between WWI and WWII, whose prevalence has been dropping ever since, suggesting “behavioral evidence of growing individualism.” On the other hand, research has shown that a name can have a profound impact on a child that reverberates well into adulthood.
+                </p>
+                <br>
+                <p id="back">In addition, using biblical baby names to study cultural changes, especially the Christianity affiliation influence, through quantitative approaches would be able to elucidate the influence that surrounding culture wields on the parents of the newborns.
+                </p>
+                <br>
+                <p id="back">If the cultural influence affiliated to Christianity is growing or falling in the United States, there should be a corresponding increase in the cultural practices, social behaviors, and psychological processes linked to individualism. In this project, we are trying to find the evidence suggesting this is true or not. Furthermore, we are trying to find the regional influence and correlation between the states that share the similarity in culture evolution.
+                </p>
+                <br>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="object">
+    <div class="content-section-b">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+                <h3>Project Objective</h3>
+                <hr>
+                <p id="back">
+                    We hope to explore the social trend by analyzing the distribution of baby names. The project is divided into two parts. The first part is to analyze the biblical naming trend over years. We want to see the how the naming trend changed over different parts of the US. According to the changes, we want to explore the development of possible Christian affiliation trend.  The second part is compare and explore the possible migration trend before and after some specific history events. For example, we explored how states clustered based on baby names before and after the world war II and economic depression. We are trying to explain the migration trend before and after each events according to our clustering results.
+                </p>
+                <br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="analysis">
+    <div class="content-section-a">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+                <h2>Data intuition & exploration</h2>
+                <hr>
+                <h3>Step 1: Preliminary Data Exploration</h3><a href="DE_ZZ.html" target="_blank">[Link to iPython Notebook]</a>
+                <br>
+                <ul>
+                    <li>
+                        <h4>Basic Data Description</h4>
+                        <p id="back">
+                            We got the data frome <a href="https://www.kaggle.com/kaggle/us-baby-names" target="_blank">Kaggle</a>. There are two datasets on Kaggle. The first one is the national names dataset. This dataset contains 5 columns, which are ID, name, year, gender, and count. The total number of observations is 1825432. The range of the year is from 1880 to 2014. The range of the frequency of each name in each year is from 5 to 99680. And there are in total 93889 unique names recorded on our database.
+                        </p>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Data Limitations and Distortions</h4>
+                        <p id="back"> Identification of data limitations and distortions We begin our data exploration by first look at possible data limitations and distortions. The very first step we think about is the missing value issue. Then we the sanity check by firstly look at the potential missing values. After the checking, we found that there is no missing value on each column of the data. The second issue that we concerned about is the trend of the total observations collected along years. Then we grouped by the variable year and drew a line graph and the results are presented in fig.1. There is an obvious increasing trend over time from 1880 to 2014. But since 2010, there is a slight decreasing trend.</p>
+                        <br>
+                        <img width= 80% src="img/pic1.png" alt="" align="middle">
+                        <br>
+                        <p id="back"> The years included in the national data set and the state data set do not match up. The national data begins in 1880 while the state data begins in 1910. There is a different number of names for each row and for each state because the criteria used for including the name in the data set is that the name has to have a minimum of five occurrences. Thus we cannot assume that the number of names in the data set will be the same for any two years.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Popular Name</h4>
+                        <p id="back">Most popular names Then we look the most popular names from 1880 to 2014. Regardless of gender, the most popular names are James and John. For females, the most popular names are Mary and Elizabeth. For males, the top 2 are also James and John. Clearly, there is a distinction between female popular names and male popular names. But surprisingly, the populars name of all gender is pretty similar to the popular names of male. It is probably because we have more males than female in our data set.</p>
+                        <br>
+                        <img width= 80% src="img/pic2.png" alt="" align="middle">
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Most Gender Ambiguous Name</h4>
+                        <p id="back">We define the ambigous as "cannot distinguish the gender by name". Thus, if the name having high counts in both gender (50-50 chance in both gender), we regard it as high ambiguity. If the name is used only for male or only for female, we regard it as low ambiguity. If order to find the ambiguity accurately, we would like to filter out the name with too low number of total count. For example, if there is a name have only two count, one for female and one for male. Based on the criteria we set before, we will regard it as high ambigous name, but only two count may not sufficient to show the name is a ambigous name.</p>
+                        <br>
+                        <img style="width: 70%; height: 70%" src="img/pic3.png" alt="" align="middle">
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Names that have had an ever larger change in popularity</h4>
+                        <br>
+                        <img height="70%" width= "70%" src="img/pic4.png" alt="" align="middle">
+                        <br>
+                        <img height=70% width= 70% src="img/pic5.png" alt="" align="middle">
+                    </li>
+                    <br>
+                </ul>
+                <h3>Step 2: Data Processing for next step</h3>
+                <a href="explorative.html" target="_blank">[Link to iPython Notebook]</a>
+                <br>
+                <br>
+                <h4>Part I: Generating Biblical Dataset</h4>
+                <br>
+                <p id="back">The original data is a csv table including the count of baby names from each year, each state, and each name. In the original data, the minimum count of the baby names is 5. Any number below 5 is considered as nan in the table. We cleared up the data and picked up the biblical names only. We transformed the data into a list of matrices, where each matrix represents the name count of a single year, ranging from 1910 to 2014. In each matrix, the columns represent the name, and the index represents the state. Therefore each slot is the count of a specific name in a specific state.</p>
+                <br>
+                <img height=90% width= 90% src="img/pic6.png" alt="" align="middle">
+                <h4>Part II: Generating All Names Dataset</h4>
+
+                <p id="back">We also generated the whole baby names matrix using the similar ways as bove.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="method">
+    <div class="content-section-b">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Methods</h2><a href="Methods_Final_Version.html" target="_blank">[Link to iPython Notebook]</a>
+                <hr>
+                <p id="back">
+                    In overall, in order to measure the similarity in the distribution of baby names among states, we first use cross-correlation matrix to quantify the similiarity. Then use principal component analysis (PCA) of the matrices of states correlation to separate the true systematic similarity from random noise. Besides PCA, we also use hierarchical clustering and K-means clustering on the cross-correlation matrix among states to group similar states into the same groups.
+                </p>
+                <br>
+
+                <p id="back">
+
+
+                        <h3>Data preparation: Processing Data Before Using Functions From Methods</h3>
+                        <p id="back">In the previous data processing step, we have orgnized the data into a matrix format, where each column is a state, each row is a baby name, and each cell in the matrix is the count of that baby name in that state. In the following steps, we will first choose some data for the later analysis part, and then introduce how to use several functions to convert them to a desired format.</p>
+                        <br>
+                            <ul>
+                                <li>
+                                    <h4>Select years to explore whether there is a changing pattern for state-state relationship over time</h4>
+                                </li>
+                                <br>
+                                <li>
+                                    <h4>Using selected biblical names: To explore how Christianity related social events influence the migration in the U.S.</h4>
+                                    <ul>
+                                        <li>
+                                            <h4>Civil Rights Movement:</h4> <p id="back">As the center of community life, Black churches held a leadership role in the Civil Rights Movement. Their history as a focal point for the Black community and as a link between the Black and White worlds made them natural for this purpose.Civil Rights movement was widely considered as between 1954-1968. Therefore we decided to compare the data 10 years before and after the movement.</p>
+                                        </li>
+                                        <br>
+                                        <li><h4>Separation of Church and State:</h4>
+                                            <p id="back">Another noticable event in religious history is the "separation of church and state" movement, which became a definitive part of Establishment Clause jurisprudence in Everson v. Board of Education, 330 U.S. 1 (1947), a case that dealt with a state law that allowed government funds for transportation to religious schools.
+                                            We also compare the data 10 years before and after the movement.</p>
+                                        </li>
+                                    </ul><br>
+                                </li>
+                                <li>
+                                    <h4>Using all baby names: To explore how social events influence the migration in the U.S.</h4>
+                                    <br>
+                                    <p id="back">
+                                        Concerning the following major social events: WWII, Great Depression, Second wave feminism, Hawaii and Alaski admitted as states
+                                    </p>
+                                </li>
+                            </ul>
+                <br><br>
+                <h3>Method Steps</h3>
+                <p id="back">We will apply these steps on all the datasets that we generated before.</p>
+                <br>
+                <h4>Step 1: Compute the frequency of each name in the state</h4>
+                <h4>Step 2: Compute the average frequency of the each name over the 51 states</h4>
+                <h4>Step 3: compute the fluctuations of the frequencies of names over the states</h4>
+                <h4>Step 4: Compute correlations between the fluctuations of names in any pair of the states</h4>
+                <h4>Step 5: Use PCA to separate the underlining noise from true similarity pattern
+                </h4>
+                <h4>Step 6: Convert positive definite correlation matrix for  Clustering</h4>
+                <h4>Step 7: Plot PC 1 and PC 2 in order to decide the clustering number</h4>
+
+                <ul>
+                    <li><p id="back">PCA plots for biblical naming trend over time</p>
+                        <img height="70%" width= "70%" src="img/pic7.png" alt="" align="middle">
+                    </li>
+                    <br>
+                    <li><p id="back">PCA plots for biblical name distribution before and after history events</p>
+                        <img height="70%" width= "70%" src="img/pic8.png" alt="" align="middle">
+                    </li>
+                    <br>
+                    <li><p id="back">PCA plots for whole name distribution before and after history events</p>
+                        <img height="70%" width= "70%" src="img/pic8.png" alt="" align="middle">
+                    </li>
+                    <li>
+                        <p id="back">Conclusion:</p><p id="back">We found that there are 3 color areas (left, up/bottom, right) in every PC1/PC2 plots so we decide to use 3 as the cluster number for both K-Means and Hierarchical Clustering.</p>
+                    </li>
+                </ul><br>
+
+                <h4>Step 8: Implement Hierarchical Clustering and Kmeans Clustering</h4>
+
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="vis">
+    <div class="content-section-a">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Results & Visualization</h2>
+                <br>
+                <p id="back">
+                    Since baby names change in a state level is a product of societal influence around certain period in the US history, analyzing the names of babies is a potential useful way to explore the major social trends as well as its impact to the overall population. Biblical name is a unique existence among all names, so we have a separate discussion for that. To explore more general social trends, we would like to use all baby names. The goal of this section is to explore whether there is a gradually change in migration pattern (or state & state relationship changing pattern) in the U.S. via the distributions of baby names from different states. Here, we assume that when people migrates, the convention of picking their baby names will not change dramatically with the location change. Therefore, we would expect a diffusion pattern between two states if there are large population movement between them. Also, if there is a migration pattern (or state & state relationship changing pattern), we would like to explore whether the change is potentially related to some major social events.
+                </p>
+                <h3>Results for whole name distribution before and after history events</h3>
+                <a href="Whole+Names+Visualization.html" target="_blank">[Link to iPython Notebook]</a>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481760325360' style='position: relative'><noscript><a href='#'><img alt='&lt;KM - whole baby names&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Wholebabynames-HC&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Wholebabynames-HC&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Wholebabynames-HC&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481760325360');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481760279598' style='position: relative'><noscript><a href='#'><img alt='&lt;HC-whole baby names&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HC&#47;HC-wholebabynames&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='HC-wholebabynames&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HC&#47;HC-wholebabynames&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481760279598');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Discussion:</h3>
+                <p id="back">
+                    From the explorative analysis, we noticed that there is a change of state-state relationship over time via the distribution of baby names. Some states tend to have a closer association in the early 1990s, while they become diversified over time. This observation drives us to explore whether the change of state-state relationship pattern is due to some significant social events. We take a closer look at some major historical events happened around the pattern change time point. For example, we notice that states clusters in 1930s are different from the states clusters in 1960s. During this time period, WWII is an important historical event which may influence the migration patterns in the U.S. Thus, we compare the state-state relationship before and after WWII. By comparison, the relationship of Florida and the rest of state changes dramatically.
+                </p>
+                <br>
+                <p id="back">Also, there is a notable infusion of South states, Midwest states and West states. Before the WWII, South states (KY, NC, TN, AL, GA, FL) are well separated from the rest of surrounding states. After the WWII, those South states became more similar to states in the West (CA), Midwest (WI, IL) and North states (NY, MA, NJ). The changing pattern is consistent with the historical facts. As U.S. became involved in World War II, the West became the preferred site for many military training bases. Improved highways allowed rapid mobilization during wartime and promoted national defense during peacetime. In the Second Great Migration period (approximately from 1941 until 1970), more than five million African Americans moved to cities in states in the North, Midwest and West, including California, where Los Angeles, Oakland, Richmond, and Long Beach offered skilled jobs in the defense industry. Around 1945 the government invested approximately $70 billion in capital projects throughout California, resulting in the creation of entirely new industries and a bountiful supply of civilian jobs, which attracts more people moving from North to California. Also, World War II causes a mass migration to the shipyards and aircraft factories of San Diego (California) for soldiers and their families. This shift in population extended to the entire southern rim of the country, across the Southwest and South all the way to Georgia, Florida, and the Carolinas. Although there may be other possible reasons resulting the state-state relationship changed during this time period, WWII is surely a promising reason caused the migration, and the migration pattern is well reflected in the distribution of baby names. The possible reason of the migration pattern is well captured by baby names is that African American tends to keep their way of choosing baby names after they move to other states. Thus, there exists a similarity of baby names for those African American living in South and those moving to West, Midwest and North states.
+                </p>
+                <br>
+                <p id="back">We also explore other social events may be related to migration patterns, such as before and after Alaska was admitted as a state, and the second wave of feminism movement. The pattern of state-state relationship doesn’t change dramatically as we have expected. However, it makes sense if we explore the reason carefully. Before Alaska became a state, it is already regarded as being similar to its closest states such as WA and OR. Also, since we choose K = 3 to cluster states, although Alaska may have a larger difference from other states before it became a state, using K = 3 will not reflect such difference if it is relatively small. Furthermore, for the second wave of feminism, women might move to other industry-concentrated states for better employment opportunity, yet, they may also prefer jobs near their family, which isn’t reflected in the state migration pattern. Thus, we would expect baby names be a useful way to explore the influence of social events that involve migration and have a large social impact on certain population.
+                </p>
+                <br><br>
+                <h3>Results for biblical naming trend over time</h3>
+                <a href="Biblical+Names+Visualization.html" target="_blank">[Link to iPython Notebook]</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481124674276' style='position: relative'><noscript><a href='#'><img alt='&lt;Hierachical clustering results&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hc&#47;hc_0&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='hc_0&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hc&#47;hc_0&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481124674276');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481124766216' style='position: relative'><noscript><a href='#'><img alt='&lt;K-MEANS clustering results&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hc&#47;hc_0&#47;Story2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='hc_0&#47;Story2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hc&#47;hc_0&#47;Story2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481124766216');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Results for biblical name distribution before and after history events</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481489118120' style='position: relative'><noscript><a href='#'><img alt='&lt;HC - Before and After civil war&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7X&#47;7X3JXNQXM&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='shared&#47;7X3JXNQXM' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7X&#47;7X3JXNQXM&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481489118120');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class='tableauPlaceholder' id='viz1481489184186' style='position: relative'><noscript><a href='#'><img alt='&lt;KM - Before and After Civil war&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ne&#47;new_56&#47;Story2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='new_56&#47;Story2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ne&#47;new_56&#47;Story2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481489184186');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <br><br>
+                <h3>Discussion:</h3>
+                <p id="back">
+                    We are interested in examining whether biblical names could reflect Christianity influence among states over time. Although people may use biblical names even though they are not Christians, biblical names are closely associated with Christianity for the most of the time. By clustering the states using the distribution of biblical names for selected years, we notice that North-Western groups of states form well-separated clusters while North-Eastern groups of states are not well-separated over years. The social evolution of geographical correlation showing that as time goes by, the Christianity affiliation in the East coast become more diversified than the West coast. To explore the potential reason for this diversified pattern in the East coast, we took a look at two major Christianity events in the twenty century: Civil War and Separation of church and state (according to Wikipedia: History of Christianity in the United States). However, before and after those events, the pattern doesn’t show an obvious difference in state-state relationship. The possible reason is that those two events don’t have large enough (on state level) impacts on migration. Thus, we would expect the diversified results over time may due to other social events (on all names scale, including biblical names) instead of merely Christianity related events.
+
+                </p>
+
+
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section id="conclusion">
+    <div class="content-section-b">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+            <h2>Conclusion</h2>
+                <hr>
+            <p id="back">
+                In our project, we aim to explore whether change in baby names from a state level can reflect the critical social transformations happened in US during 20th century. To examine this question, we first show the dynamics of state-state relationship over time via the distributions of baby names. Our analysis discovers that there exists a changing pattern on baby names with state-state relationships. Therefore, we further explore the association between these changes with some major social events happened around the same period in the US. We make a reasonable assumption that people tend to keep their name picking behaviors after they move to other states. Thus, if there are huge population movements during the period, we will likely observe drastic changes on baby names from state to state. Based on such hypothesis, we believe baby names could be a quantitative description of certain types of societal change.
+
+            </p>
+            <br>
+            <p id="back">
+                One of the possible cultural evolutions that can be reflected by baby names change from a state level is large scale migration, huge population movements triggered by critical social events. For example, WWII causes the Second Great Migration of more than five million African Americans from the South to other states. Because of the economic concerns and huge demand for workers during war time, most of African Americans are relocated to industry-concentrated state, Urban areas and cities. For these type of events, we can employ baby names as a useful tool to capture the details of migration patterns. Moving beyond that, we can also explore the change of Christianity influence in state level over time, as well as its relationship with major Christianity events happening via the distributions of baby names. Overall, our project provides a new perspective to capture macroscopic changes in the structure of state-state relationships via baby names data. It also suggests the types of culture transformations that can be reflected and future studied by using our project results.
+
+            </p>
+            <br>
+            <p id="back">
+                Yet, there exists some limitations of our project since it is based on several assumptions mentioned previously. For example, we assume that biblical names are closely related to Christianity influence. In fact, people may have a biblical name just for personal preference instead of religion purpose as being a Christian. However, from our dataset, we are not able to distinguish people with biblical names who are truly Christians by using existing predictors. Also, there may exist some unmeasurable confounders between baby names and social events. To eliminate all possible confounding issues, we need to include more detailed social information along baby names. Fortunately, the project does suggest an innovative way (using the distributions of baby names) to picture the social impact, especially migration pattern in the U.S. during 20th century.
+            </p>
+            <br>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="content-section-a">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="wow bounceInDown" data-wow-delay="0.1s">
+                    <h2 class="section-heading">About us</h2>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.2s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5 id="pic">Bingxin Xu</h5>
+                                <p class="subtitle">Data Wrangler</p>
+                                <div class="avatar"><img src="img/bx.png" width="80%" alt="" class="img-responsive img-circle" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5 id="pic">Yufei Gui</h5>
+                                <p class="subtitle">Web developer & Machine learning</p>
+                                <div class="avatar"><img src="img/yufei.png" width="80%" alt="" class="img-responsive img-circle" /></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.6s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5 id="pic">Zhongzhong Xu</h5>
+                                <p class="subtitle">Lead Data Scientist<br></p>
+                                <div class="avatar"><img src="img/zz.jpg" width="80%" alt="" class="img-responsive img-circle" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.9s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5 id="pic">Xue Zou</h5>
+                                <p class="subtitle">Visualization Guru</p>
+                                <div class="avatar"><img src="img/ZX.png" width="80%" alt="" class="img-responsive img-circle" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <a href="#intro" class="page-scroll btn btn-circle">
+                    <i class="fa fa-angle-up fa-5x animated"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/scroll.js"></script>
+
+
+<script src="js/fancyboxclick.js"></script>
+
+</body>
+</html>
